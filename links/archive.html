@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 2rem 0;
+            text-align: center;
+            position: relative;
+            border-bottom: 3px solid #333;
+        }
+
+        .patreon-link {
+            position: absolute;
+            top: 1rem;
+            right: 2rem;
+            background-color: #ffffff;
+            color: #000000;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            border: 2px solid #000000;
+        }
+
+        .patreon-link:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 2px;
+        }
+
+        .tagline {
+            font-style: italic;
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        nav {
+            background-color: #f8f8f8;
+            padding: 1rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://www.patreon.com/OnlyJustAThought" class="patreon-link">Support on Patreon</a>
+        <h1>Archive</h1>
+        <p class="tagline">No gray area</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="panel"><a href="index.html">Home</a></li>
+            <li class="panel"><a href="links/about.html">About</a></li>
+            <li class="panel"><a href="links/archive.html">Archive</a></li>
+            <li class="panel"><a href="links/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
