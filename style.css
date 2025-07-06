@@ -18,6 +18,10 @@
             text-align: center;
             position: relative;
             border-bottom: 3px solid #333;
+            display:flex;
+            justify-content: baseline;
+            flex-direction: column;
+            
         }
 
         .patreon-link {
@@ -45,12 +49,6 @@
             font-size: 3rem;
             margin-bottom: 0.5rem;
             letter-spacing: 2px;
-        }
-
-        .tagline {
-            font-style: italic;
-            font-size: 1.2rem;
-            opacity: 0.8;
         }
 
         nav {
@@ -198,4 +196,9 @@
             main {
                 padding: 0 1rem;
             }
+        }
+        img {
+            width: 125px;
+            height: 125px;
+            border-radius: 8px;
         }
